@@ -99,11 +99,19 @@ function check() {
         if (authenticity.name) {
             delete authenticity.name
         }
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'The card is invalid.'
-        })
+        if (card.value.length == 0) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'You need to enter in a card first.'
+            })
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'The card is invalid.'
+            })
+        }
     }
     if (authenticity.boolean && typeof authenticity.name != 'string') {
         Swal.fire({
