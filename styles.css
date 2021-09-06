@@ -49,7 +49,19 @@ input {
 
 @media only screen and (max-width: 580px) {
     input {
-        width: 21em;
+        width: 19.5em;
+    }
+    #card-info {
+        background-color: #002651;
+        width: 23.563636363636364em;
+        height: 14.863636363636364em;
+        border: 2px transparent;
+        border-radius: 2em;
+        color: #28c7fa;
+        box-shadow: 0;
+        transition: box-shadow 1s;
+        opacity: 0;
+        transition: opacity 2s;
     }
 }
 
