@@ -14,6 +14,12 @@ card.addEventListener('keypress', () => {
     card.value = old.split(' ').join('');
 })
 
+card.addEventListener('keypress', function() {
+    if (!/[^a-zA-Z]/.test(card.value)) {
+        card.value = '';
+    }
+})
+
 
 function luhnAlgo(num) {
     var sum = 0;
@@ -99,7 +105,7 @@ function check() {
         if (authenticity.name) {
             delete authenticity.name
         }
-        if (card.value.length == 0) {
+        if (card.value.length == 0 || !/[^a-zA-Z]/.test(card.value)) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
