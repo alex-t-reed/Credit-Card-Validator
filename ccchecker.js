@@ -20,6 +20,13 @@ card.addEventListener('keypress', function() {
     }
 })
 
+// Stops space abuse
+card.addEventListener('keypress', () => {
+    if (card.value.trim() == '') {
+        card.value = '';
+    }
+})
+
 
 function luhnAlgo(num) {
     var sum = 0;
@@ -37,7 +44,7 @@ function luhnAlgo(num) {
             sum += parseInt(num[i]);
         }
     }
-    if (sum % 10 == 0 && num.length > 0) {
+    if (sum % 10 == 0 && num.length > 0 && num.trim() != "") {
         return true
     } else {
         return false
@@ -105,7 +112,7 @@ function check() {
         if (authenticity.name) {
             delete authenticity.name
         }
-        if (card.value.trim().length == 0 || !/[^a-zA-Z]/.test(card.value.trim())) {
+        if (card.value.length == 0 || !/[^a-zA-Z]/.test(card.value)) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
