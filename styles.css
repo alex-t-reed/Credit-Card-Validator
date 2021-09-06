@@ -74,6 +74,7 @@ input {
 input[type=button] {
     width: 8.8em;
     background-color: #fc5185;
+    color: black;
 }
 
 input[type=button]:active {
