@@ -1,6 +1,8 @@
 # Credit Card Validator
  A simple credit card validator.
 
+[https://alex-t-reed.github.io/Credit-Card-Validator/](https://alex-t-reed.github.io/Credit-Card-Validator/)
+
 Credit card numbers consist of three parts:
 1. Bank identification number or issue identification number (first 6 digits)
     - Some may be shorter than 6 digits in length, for example Visa, which is simply the number 4
