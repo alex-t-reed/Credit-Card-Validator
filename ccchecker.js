@@ -105,7 +105,7 @@ function check() {
         if (authenticity.name) {
             delete authenticity.name
         }
-        if (card.value.length == 0 || !/[^a-zA-Z]/.test(card.value)) {
+        if (card.value.length == 0 || !/[^a-zA-Z]/.test(card.value.replace(' ', ''))) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
