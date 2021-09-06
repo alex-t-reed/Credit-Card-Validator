@@ -38,7 +38,7 @@ body {
 }
 
 input {
-    width: 28em;
+    width: 25em;
     height: 3em;
     text-align: center;
     font-size: 1.2em;
@@ -48,12 +48,12 @@ input {
 }
 
 input[type=button] {
-    width: 7.3em;
+    width: 6.9em;
     background-color: #fc5185;
 }
 
 input[type=button]:active {
-    width: 7.5em;
+    width: 7.1em;
     background-color: #fc5185;
     box-shadow: 2px 2px #640736;
 }
@@ -69,8 +69,8 @@ input:focus {
 
 #card-info {
     background-color: #002651;
-    width: 33.7em;
-    height: 21.25em;
+    width: 25.92em;
+    height: 16.35em;
     border: 2px transparent;
     border-radius: 2em;
     color: #28c7fa;
