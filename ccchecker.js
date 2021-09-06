@@ -31,7 +31,7 @@ function luhnAlgo(num) {
             sum += parseInt(num[i]);
         }
     }
-    if (sum % 10 == 0) {
+    if (sum % 10 == 0 && num.length > 0) {
         return true
     } else {
         return false
