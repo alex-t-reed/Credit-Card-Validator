@@ -1,7 +1,9 @@
 # Credit Card Validator
  A simple credit card validator.
-
+---
 [https://alex-t-reed.github.io/Credit-Card-Validator/](https://alex-t-reed.github.io/Credit-Card-Validator/)
+
+>Try entering your card number to see the result, then experiment which changing one digit
 
 Credit card numbers consist of three parts:
 1. Bank identification number or issue identification number (first 6 digits)
@@ -12,3 +14,4 @@ Credit card numbers consist of three parts:
 You can read more about validating credit cards here:
 - [https://www.groundlabs.com/blog/anatomy-of-a-credit-card-luhn-checks-bin-ranges-data-discovery/](https://www.groundlabs.com/blog/anatomy-of-a-credit-card-luhn-checks-bin-ranges-data-discovery/)
 - [https://stevemorse.org/ssn/cc.html](https://stevemorse.org/ssn/cc.html)
+---
