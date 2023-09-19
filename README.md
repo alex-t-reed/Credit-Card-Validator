@@ -49,8 +49,8 @@ For more information on credit card validation and anatomy, you can explore thes
 ## Contact
 
 - **Email**: [Alex Reed](mailto:alexreed@ucsb.edu)
-- **LinkedIn**: [Alex Reed on LinkedIn](https://www.linkedin.com/in/alextreed?trk=profile-badge)
+- **LinkedIn**: [Alex Reed on LinkedIn](https://www.linkedin.com/in/alextreed)
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="alextreed" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/alextreed?trk=profile-badge">Alex Reed</a></div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alextreed)
 
 Feel free to explore the [demo](https://alex-t-reed.github.io/Credit-Card-Validator/) and learn more about credit card validation!
